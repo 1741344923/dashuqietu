@@ -1,0 +1,145 @@
+
+
+
+.bg{
+    position: relative;
+    text-align: center;
+}
+.bg .hd{
+    position: absolute;
+    bottom: 25px;
+    display: inline-block;
+}
+.bg .hd li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #aaaaaa;
+    float: left;
+    margin: 0 5px;
+}
+.bg .hd li.on{
+    background-color: red;
+}
+.bg .bd ul li{
+    width: 100%;
+    height: 430px;
+    display: none;
+}
+.bg .bd ul li img{
+    width: 100%;
+    height: 100%;
+}
+.bg .bd ul li.on{
+    display: block;
+}
+/*首页的关于我们*/
+.about{
+    text-align: center;
+}
+
+.about ul{
+    height: 230px;
+}
+.about li{
+    float: left;
+    width: 313px;
+    height: 100%;
+    margin-right: 30px;
+}
+.about_paragraph{
+    font-size: 16px;
+    color: #2a2a2a;
+    text-indent: 2em;
+    line-height: 38px;
+    text-align: center;
+    padding: 0 15px;
+}
+
+/*了解更多*/
+.understand{
+    width: 143px;
+    height: 34px;
+    background: #58215b;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 34px;
+    font-size: 16px;
+    color: white;
+}
+
+/*首页产品介绍*/
+.introduce{
+    height: 500px;
+    background: #f3f3f3;
+}
+.introduce_box{
+    position: relative;
+    height: 100%;
+}
+.introduce_box .hd{
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.introduce_box .hd ul li{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 10px;
+    display: inline-block;
+}
+.introduce_box .hd ul li.on{
+    background-color: #58215b;
+}
+.introduce_box .bd{
+    height: 100%;
+}
+.introduce_box .bd ul{
+    height: 100%;
+    display: none;
+}
+.introduce_box .bd ul.on{
+    display: block;
+}
+.introduce_box .bd ul li{
+    height: 100%;
+}
+.introduce_box .bd ul li img{
+    float: left;
+    width: 264px;
+    height: 300px;
+    margin-top: 60px;
+    margin-right: 80px;
+}
+.introduce_box .bd ul li .bd_right{
+    width: 630px;
+    float: left;
+}
+
+/*首页的新闻资讯*/
+.information ul{
+    height: 320px;
+}
+.information ul li{
+    height: 100%;
+    position: relative;
+}
+.information ul li img{
+    width: 330px;
+}
+.information ul li span{
+    height: 101px;
+    line-height: 20px;
+    padding: 15px;
+    position: absolute;
+    left: 0;
+    bottom: 12px;
+    font-size: 14px;
+    text-indent: 2em;
+    box-shadow:0 0 15px #aaaaaa;
+}

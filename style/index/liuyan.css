@@ -1,0 +1,26 @@
+
+.liuyan{
+    font-size: 26px;
+    padding-top: 80px;
+}
+.liuyan input{
+    width: 348px;
+    height: 34px;
+    line-height: 34px;
+    padding: 10px 0 10px 10px;
+}
+.liuyan ul li{
+    margin-bottom: 25px;
+}
+.liuyan ul li em{
+    width: 195px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px;
+}
+.liuyan div a{
+    width: 59px;
+    height: 19px;
+    background: url(../../images/yanzhengma.png) no-repeat center center;
+    display: inline-block;
+}

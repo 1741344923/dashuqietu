@@ -1,0 +1,118 @@
+.product_left{
+    border: 1px solid #c8c8c8;
+    width: 206px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 31px;
+    margin-right: 37px;
+}
+.product_left h2{
+    border-bottom: 2px solid #d1d1d1;
+    font-size: 16px;
+    height: 49px;
+    line-height: 49px;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.product_left ul li{
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    color: #5f5f5f;
+    padding-left: 8px;
+}
+.product_left ul li i{
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border: 6px solid transparent;
+    border-left-color: #00adef;
+    margin-right: 10px;
+}
+.product_right{
+    width: 757px;
+    border: 1px solid #c8c8c8;
+    padding:0 37px 37px 37px;
+}
+.product_right h2{
+    height: 50px;
+    line-height: 50px;
+    color: #00adef;
+    font-size: 38px;
+    margin-top: 13px;
+    border-bottom: 2px solid #00adef;
+}
+.product_right p{
+    height: 92px;
+    line-height: 92px;
+    font-size: 16px;
+}
+.product_right p em{
+    color: #00adef;
+    font-size: 20px;
+}
+.product_right ul li{
+    text-indent: 2em;
+    font-size: 14px;
+    line-height: 34px;
+}
+
+.base h3{
+    width: 262px;
+    height: 58px;
+    line-height: 58px;
+    color: white;
+    background: #00adef;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 28px;
+}
+.base .base_img{
+    height: 777px;
+    background: url(../../images/jianjie.png) no-repeat center center;
+}
+
+.address{
+    line-height: 52px;
+    color: #575757;
+    font-size: 22px;
+    padding: 118px 0 187px 0;
+}
+.address ul li{
+
+}
+.address ul li em{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #00adef;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    margin: 0 25px;
+}
+
+/*返回顶部*/
+.return{
+    width: 58px;
+    border: 1px solid #5a1e5c;
+    position: fixed;
+    right: 50px;
+    top: 50%;
+    font-size: 18px;
+    color: #592162;
+}
+.return .return_top{
+    height: 59px;
+    background: url(../../images/retrue3.png) no-repeat center center;
+}
+.return .return_bottom{
+    height: 130px;
+    width: 20px;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 10px;
+}

@@ -1,0 +1,157 @@
+
+.details div.on {
+    display: block;
+}
+
+.details_left {
+    height: 100%;
+}
+
+.details_left img {
+    width: 230px;
+    height: 230px;
+}
+
+.details_right {
+    width: 770px;
+    height: 100%;
+    font-size: 14px;
+    color: #333333;
+    padding-left: 40px;
+    overflow-y: scroll;
+}
+
+.details_right h2 {
+    font-size: 24px;
+}
+
+.details_right ul {
+    float: left;
+    height: 100%;
+}
+
+.details_right ul li {
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.details_right p {
+
+}
+
+.data_box {
+    padding: 10px 0 60px 0;
+}
+
+.data_box .bd {
+    width: 777px;
+    height: 196px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.details {
+    height: 265px;
+    overflow: hidden;
+}
+
+.details > .clearfix {
+    height: 100%;
+}
+
+.details_bom {
+    width: 5000px;
+    height: 100%;
+}
+
+.details_bom ul {
+    height: 100%;
+}
+
+.details_bom ul li {
+    position: relative;
+    width: 165px;
+    height: 178px;
+    float: left;
+    margin: 0 13px;
+}
+
+.details_bom ul li.on {
+    box-shadow: 0 0 2px #000;
+}
+
+.details_bom ul li span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    line-height: 38px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 14px;
+}
+
+.arrow {
+    position: relative;
+}
+
+.prev,
+.next {
+    width: 65px;
+    height: 114px;
+    display: inline-block;
+    position: absolute;
+    bottom: 46px;
+}
+
+.prev {
+    left: 40px;
+    background: url(../../images/01.png) no-repeat center center;
+}
+
+.next {
+    right: 40px;
+    background: url(../../images/02.png) no-repeat center center;
+}
+
+.details_lg {
+    width: 590px;
+    position: relative;
+}
+.details_lg .details_p{
+    display: none;
+}
+.details_lg.on .details_p{
+    display: block;
+}
+
+.details_lg .details_btn {
+    position: absolute;
+    right: -60px;
+    top: 0;
+}
+
+.details_lg .details_btn a {
+    display: none;
+}
+
+.details_lg .details_btn a img {
+    vertical-align: middle;
+}
+
+.details_lg .details_btn a.show {
+    display: block;
+}
+
+.details_lg.on .details_btn a.show {
+    display: none;
+}
+
+.details_lg.on .details_btn a.hide {
+    display: block;
+}

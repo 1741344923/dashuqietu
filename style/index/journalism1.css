@@ -1,0 +1,27 @@
+.biaoti_list{
+    height: 340px;
+    background-color: #fafafa;
+    margin-bottom: 405px;
+}
+.biaoti_list h2{
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.biaoti_list p span{
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.biaoti_list div{
+    text-indent: 2em;
+    font-size: 16px;
+    line-height: 30px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
