@@ -18,7 +18,7 @@
     font-size: 14px;
     color: #333333;
     padding-left: 40px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .details_right h2 {
